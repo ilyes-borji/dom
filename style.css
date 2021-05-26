@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  height: 60px;
+
+  text-align: center;
+
+  font-size: 50px;
+  font-weight: 400;
+  color: red;
+}
+.shopping-cart {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 200px 30px;
+  height: 120px;
+  padding-left: 600px;
+}
+.bloc-1 {
+  text-align: left;
+}
+.total {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+.unite {
+  font-size: 20px;
+  text-align: center;
+}
+.center {
+  text-align: center;
+  padding-top: 50px;
+}
+#myheart1,
+#myheart2 {
+  font-size: 2rem;
+}
+#remove {
+  margin: 30px;
+  margin-left: 200px;
+}
